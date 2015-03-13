@@ -382,7 +382,7 @@ make_fractalc (CONST int formula, float wi, float he)
 {
   fractal_context *new_ctxt;
 
-#ifndef __BEOS__
+#ifndef __HAIKU__
 #ifdef __GNUC__
 #ifdef __i386__
 #ifndef NOASSEMBLY

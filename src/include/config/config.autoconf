@@ -2,7 +2,7 @@
 #define CONFIG_H
 #define HOMEDIR
 
-#ifdef __BEOS__
+#ifdef __HAIKU__
 #define MAIN_FUNCTION be_main
 #ifdef __POWERPC__
 #  define SLOWCACHESYNC
