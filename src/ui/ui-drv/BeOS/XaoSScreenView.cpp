@@ -34,6 +34,7 @@
 #include <View.h>
 #include <Volume.h>
 #include <VolumeRoster.h>
+#include <Window.h>
 
 #include "XaoSScreenView.h"
 #include "XaoSEvent.h"

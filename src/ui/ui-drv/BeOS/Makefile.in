@@ -42,7 +42,7 @@ $(TLIB):$(OBJS)
 	$(RANLIB) $@ 
 
 XaoS.rsrc: XaoS.r XaoSResources SplashScreen
-	mwbres -o $@ XaoS.r
+	xres -o $@
 
 clean:
 	rm -f $(TLIB)

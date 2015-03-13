@@ -24,6 +24,7 @@
 
 #include <cstdio>
 #include <cstring>
+#include <string>
 #include <malloc.h>
 
 #include <Application.h>
@@ -40,6 +41,7 @@
 #include <Screen.h>
 #include <Box.h>
 #include <Alert.h>
+#include <Clipboard.h>
 
 #include "XaoSWindow.h"
 #include "XaoSDirectWindow.h"

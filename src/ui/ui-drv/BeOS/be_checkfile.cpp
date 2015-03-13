@@ -64,7 +64,7 @@ int XaoSCheckFile(BPositionIO * inSource)
 	}
         g_calculation_lock.Lock();
 	xio_file input=positionio_ropen(inSource);
-       	uih_registermenus(), 
+		uih_registermenus();
 	xth_init(0);
 	xio_init("");
 	r=uih_renderimage(NULL, input, NULL, image, 0, NULL, 0 /*output messages */);
