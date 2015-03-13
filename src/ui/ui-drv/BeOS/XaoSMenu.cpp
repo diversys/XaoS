@@ -158,7 +158,7 @@ void XaoSMenu::EnableDisable(CONST menuitem *i)
 {
 	int c=menu->CountItems(),n;
 	BMenuItem *bi;
-	for(n=0;n<c;n++)
+/*	for(n=0;n<c;n++)
 	{
 		bi=menu->ItemAt(n);
 		if(!bi->Submenu() && bi->Message()) {
@@ -182,7 +182,7 @@ void XaoSMenu::EnableDisable(CONST menuitem *i)
 		}
 		
 	}
-	if(next) next->EnableDisable(i);
+	if(next) next->EnableDisable(i); */
 }
 void XaoSMenu::AddToList(XaoSMenu *m)
 {
